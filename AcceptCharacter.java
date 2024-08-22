@@ -1,0 +1,13 @@
+package mypackage;
+
+import java.util.Scanner;
+
+public class AcceptCharacter {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Character");
+        char ch=sc.next().charAt(3);
+        System.out.println(ch);
+	}
+
+}

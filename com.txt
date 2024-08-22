@@ -1,0 +1,53 @@
+
+//interface myinterface{
+//int a;
+//void method1();
+//}
+/*public class com {
+int eid;
+String name; 
+int salary;
+private com(int id,int sal)
+{
+System.out.println("id is" +id); 
+System.out.println("id is" +sal);
+}
+public static void main(String[] args) {
+com c=new com(5467,567);
+com c1=new com(123,67);
+}
+}
+package mypackage;
+class com 
+{
+	public int x; 
+	private int y;
+	void cal(int a, int b)
+	{ 
+		x = a + 1;
+		y = b;
+	}
+}
+class demonstration
+{
+	public static void main(String args[])
+{
+		com obj = new com(); 
+		obj.cal(2, 3);
+		System.out.println(obj.x+ ""+obj.y);
+}
+}*/
+package mypackage;
+package com;
+public class com { 
+public void display()
+{
+System.out.println("This is a display function");
+}
+public void main(String[] args) { 
+System.out.println("this is an main function");
+com e= new com(); 
+e.main(args);
+e.display();
+}
+}

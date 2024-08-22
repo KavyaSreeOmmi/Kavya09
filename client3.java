@@ -1,0 +1,16 @@
+package mypackage;
+import java.util.*;
+class client3
+{
+	public static void main(String[] args)
+	{
+		StringTokenizer st= new StringTokenizer("Smile,the world smiles with you");
+		int count=st.countTokens();
+		System.out.println("NO. of tokens:"+count);
+		while(st.hasMoreTokens())
+		{
+			System.out.println(st.nextToken());
+		}
+	}
+
+}
